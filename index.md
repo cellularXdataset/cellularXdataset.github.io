@@ -5,17 +5,32 @@ The potential applications of CellularX include:
 - **Digital twin for 5G/6G Radio Access Networks (RAN)**: CellularX provides large-scale real-world KPI data that can be used to build a digital twin for RAN. The digital twin can simulate and preview unpredictable or costly operations in the real world, such as predictive maintenance, network optimization, etc.
 - **Simulation-to-Real (sim2real) study**: CellularX provides a real and simulated comparison to help researchers understand the reality gap in user-level RAN scenarios and facilitate efficient knowledge transfer from simulated data to real scenarios.
 
-#### Dataset Link
+#### Data Composition
 
 <!-- info: Provide a link to the dataset: -->
 <!-- width: half -->
-[cellularxdataset.github.io/](https://cellularxdataset.github.io/)
+
+We propose **CellularX**, a large dataset focusing on user-level network e**X**perience in **cellular** networks. It provides two sub-datasets, cellularXreal and cellularXsim, enabling a comprehensive view of the user-level network experience.
+
+- **CellularXreal** is collected by a top operator and records real-time multidimensional KPIs representing network experience over 37,947 anonymous users, providing an insightful snapshot of real-world user interactions and network experiences. This significantly contributes to understanding how users engage with the network in their daily lives.
+
+<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_real.png" alt="map_real" style="zoom:50%;" />
+
+- **CellularXsim** offers a controlled environment for simulating different scenarios and investigating their impacts on user-level network experience. It includes user-level KPIs gathered from a real-world study area and data generated in a corresponding simulation environment. 
+
+<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_sim2real.png" alt="map_sim2real" style="zoom: 33%;" />
+
+By integrating these two aspects, cellularX provides a richer understanding of the user-level network experience in wireless cellular networks. To the best of our knowledge, cellularX is the first dataset that focuses on user-level network experience.
+
+#### Dataset Link
+
+CellularXsim: 
 
 
 
 #### License
 
-The dataset provided here is licensed under the **Creative Commons Attribution-NonCommercial (CC BY-NC)** license. This means that you are free to use, copy, modify, and distribute the dataset for *non-commercial purposes* as long as you provide attribution to the original author. The license restricts the use of the dataset for any commercial purposes without obtaining prior permission from the author. Please note that this license ensures the dataset's availability for academic and non-profit research, but prohibits its usage for commercial gain. For more details about the license, refer to the accompanying license file.
+This dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License </a>. This means that you are free to use, copy, modify, and distribute the dataset for *non-commercial purposes* as long as you provide attribution to the original author. The license restricts the use of the dataset for any commercial purposes without obtaining prior permission from the author. Please note that this license ensures the dataset's availability for academic and non-profit research, but prohibits its usage for commercial gain.
 
 
 
@@ -35,34 +50,11 @@ DNA Lab. Tongji University, Shanghai, China.
 
 (Usage Note: Provide the affiliation and year if different from publishing
 institutions or multiple affiliations.) -->
+
 - Shaoyu Dou, Ph.D. Student, Tongji University
 - Kai Yang, Professor, Tongji University
-- Xiangmin Zou, Ph.D. Student, Tongji University
 
-### Funding Sources
-#### Institution(s)
-<!-- scope: telescope -->
-<!-- info: Provide the names of the funding institution(s): -->
-- Name of Institution
-- Name of Institution
-- Name of Institution
-
-#### Funding or Grant Summary(ies)
-
-<!-- scope: periscope -->
-<!-- width: full -->
-<!-- info: Provide a short summary of programs or projects that may have funded
-the creation, collection, or curation of the dataset.
-
-Use additional notes to capture any other relevant information or
-considerations. -->
-*For example, Institution 1 and institution 2 jointly funded this dataset as a
-part of the XYZ data program, funded by XYZ grant awarded by institution 3 for
-the years YYYY-YYYY.*
-
-Summarize here. Link to documents if available.
-
-**Additional Notes:** Add here
+**Note:** We thank Xiangmin Zou, a PhD student at Tongji University, for his contribution to the simulation data in the cellularXsim dataset and to the writing of the paper.
 
 ## Dataset Overview
 #### Data Subject(s)
