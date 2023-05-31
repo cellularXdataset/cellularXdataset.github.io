@@ -1,0 +1,17 @@
+cd  
+D:\chengxu\wireless insite\tongji3
+dir /AD  
+ 驱动器 D 中的卷是 Data
+ 卷的序列号是 F0A9-CDAC
+
+ D:\chengxu\wireless insite\tongji3 的目录
+
+2023-03-21  19:38    <DIR>          .
+2023-03-21  19:38    <DIR>          ..
+2023-03-21  19:35    <DIR>          map
+2023-03-21  19:35    <DIR>          status
+2023-03-21  19:35    <DIR>          tongji
+               0 个文件              0 字节
+               5 个目录 164,647,264,256 可用字节
+del "D:\chengxu\wireless insite\tongji3\tongji.antenna_pattern.diag"  
+del "D:\chengxu\wireless insite\tongji3\tongji.request"  

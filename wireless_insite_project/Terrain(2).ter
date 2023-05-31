@@ -1,0 +1,56 @@
+Format type:keyword version: 1.1.0
+begin_<terrain> Terrain
+begin_<reference> 
+cartesian
+longitude -121.192638775000006
+latitude 31.274583335999999
+visible no
+sealevel
+end_<reference>
+begin_<Material> Glass
+Material 1
+LayeredDielectric
+begin_<Color> 
+ambient 0.501961 1.000000 0.501961 1.000000
+diffuse 0.501961 1.000000 0.501961 1.000000
+specular 0.501961 1.000000 0.501961 1.000000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 50.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 0.000e+00
+permittivity 2.400000
+roughness 0.000e+00
+thickness 3.000e-03
+end_<DielectricLayer>
+end_<Material>
+begin_<structure_group> 
+begin_<structure> 
+begin_<sub_structure> 
+begin_<face> 
+Material 1
+nVertices 3
+0.0000000000 0.0000000000 0.0000000000
+3220.0800781250 0.0000000000 0.0000000000
+3220.0800781250 3303.6298828125 0.0000000000
+end_<face>
+begin_<face> 
+Material 1
+nVertices 3
+0.0000000000 3303.6298828125 0.0000000000
+0.0000000000 0.0000000000 0.0000000000
+3220.0800781250 3303.6298828125 0.0000000000
+end_<face>
+end_<sub_structure>
+end_<structure>
+end_<structure_group>
+end_<terrain>

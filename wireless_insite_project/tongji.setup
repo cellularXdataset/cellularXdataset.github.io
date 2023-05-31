@@ -1,0 +1,438 @@
+Format type:keyword version: 1.1.0
+begin_<project> Untitled Project
+project_id 2133
+begin_<globals> 
+longitude -121.192638775
+latitude 31.274583336
+end_<globals>
+FirstAvailableFeatureNumber 16
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 1
+FirstAvailableAntennaNumber 2
+FirstAvailableWaveformNumber 2
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+feature -1
+filename ./tongji.X3DGeometry.cache
+valid true
+end_<cache>
+end_<caches>
+begin_<studyarea> tongji
+StudyAreaNumber 0
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type local
+num_partitions 2
+num_ranks 2
+extra_queue_options 
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled yes
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+spatial_resolution 2
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 2
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+1610.04 1651.81 30
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude -121.192638775
+latitude 31.274583336
+visible no
+terrain
+end_<reference>
+zmin -0.25
+zmax 60.25
+nVertices 4
+-0.25 -0.25 0
+3220.330078125 -0.25 0
+3220.330078125 3303.8798828125 0
+-0.25 3303.8798828125 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active active
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 2
+terrain
+active
+filename ./Terrain(2).ter
+end_<feature>
+begin_<feature> 
+feature 4
+city
+active
+filename ./yishu.city
+end_<feature>
+begin_<feature> 
+feature 5
+city
+active
+filename ./tongxin group.city
+end_<feature>
+begin_<feature> 
+feature 6
+city
+active
+filename ./dianxin group.city
+end_<feature>
+begin_<feature> 
+feature 9
+city
+active
+filename ./sushe group.city
+end_<feature>
+begin_<feature> 
+feature 10
+object
+active
+filename ./water.object
+end_<feature>
+begin_<feature> 
+feature 11
+city
+active
+filename ./outer.city
+end_<feature>
+begin_<feature> 
+feature 12
+object
+active
+filename ./road.object
+end_<feature>
+begin_<feature> 
+feature 13
+foliage
+active
+filename ./Foliage.veg
+end_<feature>
+begin_<feature> 
+feature 14
+object
+active
+filename ./test road.object
+end_<feature>
+begin_<feature> 
+feature 15
+city
+active
+filename ./outer2.city
+end_<feature>
+begin_<txrx_sets> 
+filename ./tongji.txrx
+FirstAvailableTxRxNumber 28
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 4
+begin_<CommSystem> case1
+CommSystemNumber 0
+active
+BaseStations 8 11 12 17 19 20 
+Receivers 24 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption No Beamforming/Precoding
+RxDiversity Selection Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 20
+end_<CommSystem>
+begin_<CommSystem> case2
+CommSystemNumber 1
+active
+BaseStations 8 11 12 17 19 20 
+Receivers 25 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption No Beamforming/Precoding
+RxDiversity Selection Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 20
+end_<CommSystem>
+begin_<CommSystem> case3
+CommSystemNumber 2
+active
+BaseStations 8 11 12 17 19 20 
+Receivers 26 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption No Beamforming/Precoding
+RxDiversity Selection Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 20
+end_<CommSystem>
+begin_<CommSystem> case4
+CommSystemNumber 3
+active
+BaseStations 8 11 12 17 19 20 
+Receivers 27 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption No Beamforming/Precoding
+RxDiversity Selection Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 20
+end_<CommSystem>
+begin_<antenna> Half-wave dipole
+antenna 1
+type HalfWaveDipole
+waveform 1
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+end_<antenna>
+begin_<Waveform> Sinusoid
+Sinusoid
+waveform 1
+begin_<FrequencySweep> 
+SweepType StartIncrementCount
+StartValue 10000.000
+Increment 10000.000
+Count 10
+EndValue 100000.000
+end_<FrequencySweep>
+CarrierFrequency 2550000000.000
+phase 0.000
+bandwidth 194000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<image> Untitled Image
+begin_<Jpeg> Untitled Image
+filename ./tongji.jpeg
+extents 0 0 3172 2762
+visible 1
+utmmode 0
+northing 3303.630
+easting 0.000
+pixelx 1.014838
+pixely -1.195668
+ellipsoid 23
+end_<Jpeg>
+end_<image>
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode CommAnalysis
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF no
+ComplexImpulseResponse no
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+TerrainProfile no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+begin_<Special1> 
+AutoScaling 1
+DrawValues 0
+AutoUpdating 1
+Discrete 0
+UseGlobalOpacity 0
+ManualValuesSet 0
+ClampedHigh 1
+ClampedLow 1
+Alpha 8.000e-01
+ManualMin 0.000e+00
+ManualMax 0.000e+00
+TextColor 1.000 1.000 1.000
+Colors 6
+0.300 0.000 0.500
+0.000 0.000 1.000
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.500 0.000
+1.000 0.000 0.000
+PartitionValues 
+5
+0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 
+end_<Special1>
+end_<Scales>
+end_<project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>tongji</name>
+      <description>2023/2/22 19:21:00</description>
+      <Style>
+        <LineStyle>
+          <color>FFFCD4D4</color>
+          <width>2</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>333F3FFF</color>
+          <fill>1</fill>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>121.192557817551,31.2893041803229,0 121.208221918198,31.3041191326909,0 121.226589685532,31.2910644945869,0 121.210796838852,31.2744868994676,0 121.192557817551,31.2893041803229,0 </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

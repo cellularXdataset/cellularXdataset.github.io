@@ -34,12 +34,31 @@ By integrating these two aspects, cellularX provides a richer understanding of t
 
 #### Dataset Link
 
-- [CellularXsim](https://github.com/cellularXdataset/cellularXdataset.github.io/tree/main/open_sourced_cellularXsim)
-- CellularXreal: Will be uploaded after the article is published
+- CellularXsim:
+    - The dataset can simulator configurations can be found at [this link](https://github.com/cellularXdataset/cellularXdataset.github.io/tree/main/cellularXsim).
+    - We also provide the Wireless Insite [project file](https://github.com/cellularXdataset/cellularXdataset.github.io/tree/main/wireless_insite_project), which is the simulation platform used in this dataset. 
+
+- CellularXreal: Will be uploaded soon.
 
 #### License
 
 This dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License </a>. This means that you are free to use, copy, modify, and distribute the dataset for *non-commercial purposes* as long as you provide attribution to the original author. The license restricts the use of the dataset for any commercial purposes without obtaining prior permission from the author. Please note that this license ensures the dataset's availability for academic and non-profit research, but prohibits its usage for commercial gain.
+
+
+
+#### Citation Guidelines
+
+<!-- scope: microscope -->
+<!-- info: Provide guidelines and steps for citing this dataset in research
+and/or production. Use additional notes to capture any specific patterns that readers should look
+out for, or other relevant information or considerations. -->
+
+
+**BiBTeX:**
+
+```
+TODO
+```
 
 
 
@@ -50,20 +69,24 @@ This dataset is licensed under a <a rel="license" href="http://creativecommons.o
 
 <!-- scope: telescope -->
 <!-- info: Provide the names of the groups or team(s) that own the dataset: -->
-DNA Lab. Tongji University, Shanghai, China.
 
+[anonymous]
+
+<!--DNA Lab. Tongji University, Shanghai, China.-->
 
 #### Author(s)
-<!-- scope: microscope -->
-<!-- info: Provide the details of all authors associated with the dataset:
 
-(Usage Note: Provide the affiliation and year if different from publishing
+<!-- scope: microscope -->
+<!-- info: Provide the details of all authors associated with the dataset: (Usage Note: Provide the affiliation and year if different from publishing
 institutions or multiple affiliations.) -->
 
-- Shaoyu Dou, Ph.D. Student, Tongji University
-- Kai Yang, Professor, Tongji University
+[anonymous]
 
-**Note:** We thank Xiangmin Zou, a PhD student at Tongji University, for his contribution to the simulation data in the cellularXsim dataset and to the writing of the paper.
+<!--Shaoyu Dou, Ph.D. Student, Tongji University-->
+
+<!--Kai Yang, Professor, Tongji University-->
+
+<!--**Note:** We thank Xiangmin Zou, a PhD student at Tongji University, for his contribution to the simulation data in the cellularXsim dataset and to the writing of the paper.-->
 
 ## Dataset Overview
 #### Data Subject(s)
@@ -83,7 +106,7 @@ more detailed breakdowns.) -->
 | :------------------ | :-------------------------- |
 | Dataset Name        | CellularXreal, CellularXsim |
 | Size of Dataset     | x MB, 2.0 MB                |
-| Number of Instances | xxx, ~18,000                |
+| Number of Instances | x, ~18,000                  |
 
 **Above:** Summary of CellularX dataset
 
@@ -123,18 +146,20 @@ All user devices involved in the data set have been anonymized, and the data set
 
 ### Dataset Version and Maintenance
 #### Maintenance Status
+
 <!-- scope: telescope -->
 <!-- info: Select **one:** -->
-**Limited Maintenance** - The data will not be updated, but any technical issues will be addressed.
+**Limited Maintenance: **  The data will not be updated, but any technical issues will be addressed.
 
 #### Version Details
+
 <!-- scope: periscope -->
 <!-- info: Provide details about **this** version of the dataset: -->
-**Current Version:** 1.0
+Current Version: 1.0
 
-**Last Updated:** 06/2023
+Last Updated: 06/2023
 
-**Release Date:** N/A
+Release Date: N/A
 
 #### Maintenance Plan
 <!-- scope: microscope -->
@@ -152,16 +177,15 @@ CellularX is collected in the real world at one time for academic purposes, and 
 - Time Series
 - Geospatial Data
 
-
 #### Typical Data Point
+
 <!-- width: half -->
 <!-- info: Provide an example of a typical data point and describe what makes
-it typical.
-
-**Use additional notes to capture any other relevant information or
+it typical. **Use additional notes to capture any other relevant information or
 considerations.** -->
 
-Below are examples of kind data in the cellularX dataset.
+**Below are examples of kind data in the cellularXreal dataset.**
+
 - Time series data in cellularXreal dataset, containing missing values.
 
 <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/image-20230531162154445.png" alt="Time series data in cellularXreal dataset"  />
@@ -169,6 +193,8 @@ Below are examples of kind data in the cellularX dataset.
 - Geospatial data in cellularXreal dataset
 
 <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/image-20230531162027544.png" alt="image-20230531162027544" style="zoom:50%;" />
+
+**Below are examples of kind data in the cellularXsim dataset.**
 
 - Simulated time series data in cellularXsim dataset.
 
@@ -180,7 +206,7 @@ Below are examples of kind data in the cellularX dataset.
 
 - Geospatial data in cellularXsim dataset
 
-<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/16691685521499_.pic.jpg" alt="16691685521499_.pic"  />
+<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/image-20230531191915972.png" alt="image-20230531191915972" style="zoom:50%;" />
 
 
 
@@ -231,7 +257,7 @@ Below are examples of kind data in the cellularX dataset.
 | RSRQ (dB)                          | Reference Signal Receiving Quality                           | dB   | Float   |
 | Strongest power transmitter (Tx #) | Base station index with maximum power                        | /    | Integer |
 
-#### Collected Time Series Data 
+#### Collected Time Series Data
 
 | KPI Name  | Description                                    | Unit | Type    |
 | --------- | ---------------------------------------------- | ---- | ------- |
@@ -255,25 +281,28 @@ Below are examples of kind data in the cellularX dataset.
 | lat                | Longitude of the cell                              | /    | Float   |
 | lon                | Latitude of the cell                               | /    | Float   |
 | radius             | Positioning error radius                           | m    | Integer |
-| address            | Address of cell                                    | /    | String  |
 | BSIndexInSimulator | Index of base station in Wireless Insite simulator | /    | Integer |
 | BSNameInSimulator  | Name of base station in Wireless Insite simulator  | /    | Integer |
 
 
 
 ## Motivations
+
 ### Purpose(s)
+
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
 - Research
 
 ### Domain(s) of Application
+
 <!-- scope: periscope -->
 <!-- info: Provide a list of key domains of application that the dataset has
 been designed for:<br><br>(Usage Note: Use comma-separated keywords.) -->
 `AIOps`, `Prediction`, `Anomaly Detection`, `Root Cause Analysis`
 
 ### Motivating Factor(s)
+
 <!-- scope: microscope -->
 <!-- info: List the primary motivations for creating or curating this dataset:(Usage Note: use this to describe the problem space and corresponding
 motivations for the dataset.) -->
@@ -281,19 +310,6 @@ motivations for the dataset.) -->
 - Encourages fair comparisons between methods and contributes to the development of the AIOps research community.
 - Bringing User Experience to the Forefront: By focusing on user-level network experience, the CellularX dataset aims to shift the focus from base station performance to user experience. This could encourage academics and industry practitioners to consider the end-user perspective more closely in their work, leading to improvements in user experience.
 - Encouraging Scenario-Diverse Model Development: By providing both real-world and simulated data, the CellularX dataset encourages researchers and practitioners to develop and test models under a wide range of network conditions. This could lead to the creation of more robust and adaptive models, contributing to the overall improvement of wireless cellular network performance.
-
-
-#### Citation Guidelines
-<!-- scope: microscope -->
-<!-- info: Provide guidelines and steps for citing this dataset in research
-and/or production. Use additional notes to capture any specific patterns that readers should look
-out for, or other relevant information or considerations. -->
-
-
-**BiBTeX:**
-```
-TODO
-```
 
 ## Provenance
 
@@ -329,7 +345,6 @@ considerations. (Usage Note: Duplicate and complete the following for collection
 <!-- info: Summarize how data from different sources or methods aggregated, processed, or connected. Use additional notes to capture any other relevant information or considerations. (Usage Note: Duplicate and complete the following for each source OR collection method.) -->
 
 The raw data of cellularXreal contains a large number of data points filled with default values, indicating that they were not collected. To avoid ambiguity, we replaced these default values with null values.
-
 
 ## Extended Use
 

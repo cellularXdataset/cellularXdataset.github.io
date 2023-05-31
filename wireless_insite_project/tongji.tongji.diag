@@ -1,0 +1,187 @@
+
+
+wibatch version 3.4.4.11 - r77081
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2023.03.21 22:16:50.260 Hostname: DESKTOP-5G06VKB (pid: 12048)
+2023.03.21 22:16:50.260 Set working directory: D:/chengxu/wireless insite/tongji3
+2023.03.21 22:16:50.320 ?? 3? 21 22:16:50 2023
+
+2023.03.21 22:16:50.340 OptiX Runtime version = 40100
+2023.03.21 22:16:50.340 CUDA Runtime version = 9.2
+2023.03.21 22:16:50.340 CUDA Driver version  = 10.2
+2023.03.21 22:16:50.340 GPU device #0: [GeForce MX250], 6.1 capability, 3 total cores, 1024 threads per block
+
+2023.03.21 22:16:51.133 Initializing X3D model
+
+2023.03.21 22:16:51.153 ============ ATMOSPHERE ============
+
+2023.03.21 22:16:51.153 Pressure = 1013.25
+2023.03.21 22:16:51.153 Temperature = 22.2
+2023.03.21 22:16:51.153 Humidity = 50
+
+2023.03.21 22:16:51.153 Added 0 route and 0 snapshot platforms.
+2023.03.21 22:16:51.153 ============ GEOMETRY ============
+
+2023.03.21 22:16:51.153 Processing geometry (2 CPU threads)
+2023.03.21 22:16:51.153 Loaded geometry: ./tongji.X3DGeometry.cache
+2023.03.21 22:16:51.153   Lowering structures to terrain
+2023.03.21 22:16:51.153     Done lowering structures to terrain
+2023.03.21 22:16:51.173   Processing foliage geometry
+2023.03.21 22:16:51.173     Done processing foliage geometry
+
+2023.03.21 22:16:51.173  ============ TRANSMITTER/RECEIVER SETS ============
+
+2023.03.21 22:16:51.173 Generating transmitter and receiver sets
+2023.03.21 22:16:51.173 TxRx set: bs3-96553012  Set number: 8  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: bs6-96730421  Set number: 11  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: bs7-96769331  Set number: 12  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: bs12-96769073  Set number: 17  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: bs14-96769074  Set number: 19  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: bs15-96769075  Set number: 20  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Transmitter:
+2023.03.21 22:16:51.173     Input power (dBm): 0
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2023.03.21 22:16:51.173 TxRx set: case1-sg2ng  Set number: 24  Type: TrajectorySet  Number of points: 606  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Receiver:
+2023.03.21 22:16:51.173     Collection radius (m): auto
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2023.03.21 22:16:51.173   Include roll angles: yes  Spacing (m): 2  Start time: 0  Velocity (m/s): 1
+
+2023.03.21 22:16:51.173 TxRx set: case2-ng2c  Set number: 25  Type: TrajectorySet  Number of points: 317  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Receiver:
+2023.03.21 22:16:51.173     Collection radius (m): auto
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2023.03.21 22:16:51.173   Include roll angles: yes  Spacing (m): 2  Start time: 0  Velocity (m/s): 1
+
+2023.03.21 22:16:51.173 TxRx set: case3-c2sg  Set number: 26  Type: TrajectorySet  Number of points: 366  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Receiver:
+2023.03.21 22:16:51.173     Collection radius (m): auto
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2023.03.21 22:16:51.173   Include roll angles: yes  Spacing (m): 2  Start time: 0  Velocity (m/s): 1
+
+2023.03.21 22:16:51.173 TxRx set: case4-circle  Set number: 27  Type: TrajectorySet  Number of points: 554  APG Accelerated: no  Fit to terrain: yes
+2023.03.21 22:16:51.173   Receiver:
+2023.03.21 22:16:51.173     Collection radius (m): auto
+2023.03.21 22:16:51.173     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2550  Phase (degrees): 0
+2023.03.21 22:16:51.173     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2023.03.21 22:16:51.173   Include roll angles: yes  Spacing (m): 2  Start time: 0  Velocity (m/s): 1
+
+2023.03.21 22:16:51.173   Auto Collection Radius = 20.1343m
+2023.03.21 22:16:51.173 ============ MATERIALS ============
+
+2023.03.21 22:16:51.183 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 2.4  Conductivity (S/m): 0  Thickness (m): 0.003  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 1  Type: DielectricHalfspace  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 81  Conductivity (S/m): 0.22  Thickness (m): 0  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 1  Type: DielectricHalfspace  Thickness (m): 0
+2023.03.21 22:16:51.183   Layer 0: 
+2023.03.21 22:16:51.183     Relative permittivity: 5.72  Conductivity (S/m): 0.0005  Thickness (m): 0  Roughness (m): 0
+
+2023.03.21 22:16:51.183 Material number: 1  Type: DielectricHalfspace  Thickness (m): 0
+2023.03.21 22:16:51.193   Layer 0: 
+2023.03.21 22:16:51.193     Relative permittivity: 5.72  Conductivity (S/m): 0.0005  Thickness (m): 0  Roughness (m): 0
+
+2023.03.21 22:16:51.193 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2023.03.21 22:16:51.193   Layer 0: 
+2023.03.21 22:16:51.193     Relative permittivity: 7  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2023.03.21 22:16:51.193 Building structure facet lists...
+
+2023.03.21 22:16:51.193 ============ SCENE ============
+
+2023.03.21 22:16:51.193 Scene information: 
+                          Number of original facets: 2020
+                          Number of spheres: 1843
+
+                          Maximum Scene Distance: 9228.88
+                          Bounding box: 
+                            Minimum: (9.68045e-09, -2.4784e-09, 0)
+                            Maximum: (3220.08, 3303.63, 60)
+
+                          Number of superedges: 1336
+
+2023.03.21 22:16:51.373 ============ MODEL ============
+
+2023.03.21 22:16:51.596 Starting X3D ray tracing for Tx set 8, point 1 (point 1 of 6 total)
+2023.03.21 22:16:51.596   Diffraction cone ray angle = 0.25
+2023.03.21 22:16:51.596   Using 1 GPU ray tracer (2 CPU threads)
+2023.03.21 22:16:51.666   Ray tracing ranges: 
+2023.03.21 22:16:51.666     Minimum phi: 0
+2023.03.21 22:16:51.666     Maximum phi: 360
+2023.03.21 22:16:51.666     Minimum theta: 0
+2023.03.21 22:16:51.666     Maximum theta: 180
+2023.03.21 22:16:51.666   Model parameters: 
+2023.03.21 22:16:51.666     Reflections:         6
+2023.03.21 22:16:51.666     Transmissions:       0
+2023.03.21 22:16:51.666     Diffractions:        1
+2023.03.21 22:16:51.666     Ray spacing (degrees): 0.25
+
+2023.03.21 22:16:51.666   Advanced model parameters:
+2023.03.21 22:16:51.666     Maximum reflections before first diffraction: 3
+2023.03.21 22:16:51.666     Maximum reflections between two diffractions: 0
+2023.03.21 22:16:51.666     Maximum reflections after last diffraction: 3
+2023.03.21 22:16:51.666   Detected 1 GPU devices.
+2023.03.21 22:16:51.806   Licensed 1 GPU devices.
+2023.03.21 22:16:51.806   Running on 1 GPU devices.
+2023.03.21 22:16:51.806     Device ID's: [ 0 ]
+2023.03.21 22:16:52.136   Optimized concurrent GPU rays: 65536
+
+2023.03.21 22:16:55.112   Beginning next round of queued diffractions
+

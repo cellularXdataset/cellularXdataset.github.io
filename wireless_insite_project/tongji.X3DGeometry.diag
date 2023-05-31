@@ -1,0 +1,44 @@
+
+
+wibatch version 3.4.4.11 - r77081
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2023.02.28 19:33:28.494 Hostname: DESKTOP-JUPQRV0V (pid: 3780)
+2023.02.28 19:33:28.505 Set working directory: F:/WirelessInsiteProject/tongji2
+2023.02.28 19:33:28.550 ?? 2? 28 19:33:28 2023
+
+2023.02.28 19:33:28.550 Creating geolocated X3D geometry cache (2 threads): ./tongji.X3DGeometry.cache
+2023.02.28 19:33:28.584 Loaded geometry: ./Terrain(2).ter
+2023.02.28 19:33:28.597 Loaded geometry: ./yishu.city
+2023.02.28 19:33:28.598 Loaded geometry: ./tongxin group.city
+2023.02.28 19:33:28.601 Loaded geometry: ./dianxin group.city
+2023.02.28 19:33:28.604 Loaded geometry: ./sushe group.city
+2023.02.28 19:33:28.608 Loaded geometry: ./water.object
+2023.02.28 19:33:28.608 Loaded geometry: ./outer.city
+2023.02.28 19:33:28.609 Loaded geometry: ./road.object
+2023.02.28 19:33:28.611 Loaded geometry: ./Foliage.veg
+2023.02.28 19:33:28.613 Loaded geometry: ./test road.object
+2023.02.28 19:33:28.614 Loaded geometry: ./outer2.city
+2023.02.28 19:33:28.620 Checking for duplicate facets
+2023.02.28 19:33:28.688 Scene: read 2368 facets.
+2023.02.28 19:33:28.717   Lowering structures to terrain
+2023.02.28 19:33:28.725     Done lowering structures to terrain
+2023.02.28 19:33:28.753   Creating candidate facets for edge creation
+2023.02.28 19:33:28.871     Done creating candidate facets for edge creation
+2023.02.28 19:33:28.873   Creating scene edges
+2023.02.28 19:33:28.878     Done creating scene edges
+2023.02.28 19:33:28.881   Finishing scene edges
+2023.02.28 19:33:28.886     Done finishing scene edges
+2023.02.28 19:33:28.897 Writing 2368 triangles to cache file
+2023.02.28 19:33:28.900 Writing edgeset (1336 edges) to cache
+2023.02.28 19:33:28.902 Writing property list (1 properties) to cache
+2023.02.28 19:33:28.903   Property: 0, name=po_object_type, 2368 entries
+2023.02.28 19:33:28.904 Successfully generated geometry cache; exiting.
+
+2023.02.28 19:33:28.905 ?? 2? 28 19:33:28 2023
+
+
+
+2023.02.28 19:33:28.905 Total Runtime: : 00:00:00.354
