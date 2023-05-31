@@ -14,11 +14,21 @@ We propose **CellularX**, a large dataset focusing on user-level network e**X**p
 
 - **CellularXreal** is collected by a top operator and records real-time multidimensional KPIs representing network experience over 37,947 anonymous users, providing an insightful snapshot of real-world user interactions and network experiences. This significantly contributes to understanding how users engage with the network in their daily lives.
 
-<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_real.png" alt="map_real" style="zoom:50%;" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_real.png" alt="map_real" style="zoom:50%;" />
+</div>
+
+
+
+
 
 - **CellularXsim** offers a controlled environment for simulating different scenarios and investigating their impacts on user-level network experience. It includes user-level KPIs gathered from a real-world study area and data generated in a corresponding simulation environment. 
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_sim2real.png" alt="map_sim2real" style="zoom: 33%;" />
+</div>
+
+
 
 By integrating these two aspects, cellularX provides a richer understanding of the user-level network experience in wireless cellular networks. To the best of our knowledge, cellularX is the first dataset that focuses on user-level network experience.
 
