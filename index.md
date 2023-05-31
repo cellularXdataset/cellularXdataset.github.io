@@ -24,9 +24,8 @@ By integrating these two aspects, cellularX provides a richer understanding of t
 
 #### Dataset Link
 
-CellularXsim: 
-
-
+- [CellularXsim](https://github.com/cellularXdataset/cellularXdataset.github.io/tree/main/open_sourced_cellularXsim)
+- CellularXreal: Will be uploaded after the article is published
 
 #### License
 
