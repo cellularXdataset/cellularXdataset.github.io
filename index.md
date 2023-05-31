@@ -48,6 +48,7 @@ institutions or multiple affiliations.) -->
 - Name of Institution
 
 #### Funding or Grant Summary(ies)
+
 <!-- scope: periscope -->
 <!-- width: full -->
 <!-- info: Provide a short summary of programs or projects that may have funded
@@ -76,16 +77,19 @@ Summarize here. Link to documents if available.
 <!-- info: Provide a snapshot of the dataset:<br><br>(Use the additional notes
 to include relevant information, considerations, and links to table(s) with
 more detailed breakdowns.) -->
+
 | Category            | Data                        |
-| ------------------- | --------------------------- |
+| :------------------ | :-------------------------- |
 | Dataset Name        | CellularXreal, CellularXsim |
 | Size of Dataset     | x MB, 2.0 MB                |
 | Number of Instances | xxx, ~18,000                |
 
-
 **Above:** Summary of CellularX dataset
 
+
+
 #### Content Description
+
 <!-- scope: microscope -->
 <!-- info: Provide a short description of the content in a data point: -->
 - **CellularXreal** dataset consists of two parts: multidimensional KPI data and cellular information, where each record corresponds to a _timestamp_ and a _sampling cell_. The data contains a significant number of missing values since not all indicators are reported for each access.
