@@ -1,26 +1,17 @@
-# CellularX: A Spatial-Temporal Dataset for User-Oriented AIOps in Cellular Network
-We introduce cellularX, the first large-scale dataset focusing on user-level network experiences within cellular networks. Unlike existing datasets that either overlook user experience or merely provide traffic data, cellularX fills the gap in supporting Artificial Intelligence for IT Operations (AIOps) by offering multi-dimensional Key Performance Indicator (KPI) data collected from over thirty thousand users. It allows for individual-oriented network optimization to become a reality. Additionally, cellularX also provides a synthetic dataset specifically designed for the sim2real study within the AIOps. CellularX serves as a benchmark, enabling AIOps applications such as anomaly prediction and root cause analysis in cellular networks. 
+# CellularX: A Spatial-Temporal Dataset for User-Centric Sim2Real Learning in Telco Network
+We introduce cellularX, the first spatial-temporal dataset focusing on user-level network experiences within telco networks. As opposed to most existing datasets that only offer cell-level Key Performance Indicators (KPIs), cellularX fills the gap by offering user-grained multi-dimensional KPI data. In particular, cellularX provides a synthetic dataset for simulation-to-reality (sim2real) research to address the challenge of scarcity of real-world data for specific scenarios. Additionally, a real-world dataset collected from almost one thousand users is open-sourced. Both datasets are capable of assisting user-level network experience modeling and monitoring, e.g., anomaly detection, anomaly prediction, and root cause analysis. 
 
-The potential applications of CellularX include: 
-- **Digital twin for 5G/6G Radio Access Networks (RAN)**: CellularX provides large-scale real-world KPI data that can be used to build a digital twin for RAN. The digital twin can simulate and preview unpredictable or costly operations in the real world, such as predictive maintenance, network optimization, etc.
-- **Simulation-to-Real (sim2real) study**: CellularX provides a real and simulated comparison to help researchers understand the reality gap in user-level RAN scenarios and facilitate efficient knowledge transfer from simulated data to real scenarios.
+The potential applications of cellularX include
+
+**1) Sim2real study**: cellularX provides a controlled, flexible simulation platform and a set of real-world and simulated data that can be used to generate low-cost training data, while helping to understand the reality gap in sim2real learning and facilitate a fair comparison of sim2real algorithm.
+**2) AIOps for telco network**: CellularX provides real-world KPI data, viewed as a snapshot of user access and network experience. Its unique multi-dimensional indicators enhance the suitability for supporting various AIOps tasks, including root cause analysis and anomaly prediction.
 
 #### Data Composition
 
 <!-- info: Provide a link to the dataset: -->
 <!-- width: half -->
 
-We propose **CellularX**, a large dataset focusing on user-level network e**X**perience in **cellular** networks. It provides two sub-datasets, cellularXreal and cellularXsim, enabling a comprehensive view of the user-level network experience.
-
-- **CellularXreal** is collected by a top operator and records real-time multidimensional KPIs representing network experience over 37,947 anonymous users, providing an insightful snapshot of real-world user interactions and network experiences. This significantly contributes to understanding how users engage with the network in their daily lives.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_real.png" alt="map_real" style="zoom:50%;" />
-</div>
-
-
-
-
+We propose **CellularX**, a large dataset focusing on user-level network e**X**perience in **cellular** networks. It provides two sub-datasets, cellularXsim and cellularXreal, enabling a comprehensive view of the user-level network experience.
 
 - **CellularXsim** offers a controlled environment for simulating different scenarios and investigating their impacts on user-level network experience. It includes user-level KPIs gathered from a real-world study area and data generated in a corresponding simulation environment. 
 
@@ -28,6 +19,12 @@ We propose **CellularX**, a large dataset focusing on user-level network e**X**p
 <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_sim2real.png" alt="map_sim2real" style="zoom: 33%;" />
 </div>
 
+
+- **CellularXreal** is collected by a top operator and records real-time multidimensional KPIs representing network experience over 982 anonymous users, providing an insightful snapshot of real-world user interactions and network experiences. This significantly contributes to understanding how users engage with the network in their daily lives.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/map_real.png" alt="map_real" style="zoom:50%;" />
+</div>
 
 
 By integrating these two aspects, cellularX provides a richer understanding of the user-level network experience in wireless cellular networks. To the best of our knowledge, cellularX is the first dataset that focuses on user-level network experience.
@@ -43,6 +40,8 @@ By integrating these two aspects, cellularX provides a richer understanding of t
 #### License
 
 This dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License </a>. This means that you are free to use, copy, modify, and distribute the dataset for *non-commercial purposes* as long as you provide attribution to the original author. The license restricts the use of the dataset for any commercial purposes without obtaining prior permission from the author. Please note that this license ensures the dataset's availability for academic and non-profit research, but prohibits its usage for commercial gain.
+
+**Author statement**: we bear all responsibility in case of violation of rights, etc., and confirmation of the data license.
 
 
 
@@ -117,9 +116,9 @@ more detailed breakdowns.) -->
 <!-- scope: microscope -->
 <!-- info: Provide a short description of the content in a data point: -->
 - **CellularXreal** dataset consists of two parts: multidimensional KPI data and cellular information, where each record corresponds to a _timestamp_ and a _sampling cell_. The data contains a significant number of missing values since not all indicators are reported for each access.
-The published KPI data encompasses 37947 users and consists of _eight dimensions_ of KPIs. These KPIs include uplink and downlink user experience rate, block error rate, the number of resource blocks, as well as RSRP of the service cell and uplink SINR. 
+The published KPI data encompasses 982 users and consists of _eight dimensions_ of KPIs. These KPIs include uplink and downlink user experience rate, block error rate, the number of resource blocks, as well as RSRP of the service cell and uplink SINR. 
 
-- **CellularXsim** provides **real-world KPI** data generated by user equipment while moving along four manually designed paths, as well as corresponding **simulated data** generated with six simulator configurations along the same routes. CellularXsim also includes a set of real-world data generated by randomly roaming within the study area. **Simulator configuations** and **base station infomation** are provided. Four KPI metrics are recorded, that are RSSI, SINR, RSRP, and RSRQ.
+- **CellularXsim** provides **real-world KPI** data generated by user equipment while moving along four manually designed paths, as well as corresponding **simulated data** generated with six simulator configurations along the same routes. CellularXsim also includes a set of real-world data generated by randomly roaming within the study area. **Simulator configuations** and **cell infomation** are provided. Four KPI metrics are recorded, that are RSSI, SINR, RSRP, and RSRQ.
 
 
 ### Sensitivity of Data
@@ -141,7 +140,7 @@ No sensitive data was intentionally collected.
 
 **Unintentionally Collected Sensitive Data**
 
-All user devices involved in the data set have been anonymized, and the data set only collected data from base stations in a part of the city block, so any user's behavior and identity cannot be inferred using any additional methods.
+All user devices involved in the data set have been anonymized, and the data set only collected data from cells in a part of the city block, so any user's behavior and identity cannot be inferred using any additional methods.
 
 
 ### Dataset Version and Maintenance
@@ -232,7 +231,7 @@ considerations.** -->
 
 | KPI Name     | Description                             | Unit | Type   |
 | ------------ | --------------------------------------- | ---- | ------ |
-| Cell ID      | ID of cellular                          | /    | String |
+| CellID       | ID of cellular                          | /    | String |
 | Average RSRP | Average of Service Cell RSRP            | dBm  | Float  |
 | lon          | Longitude of the cell                   | /    | Float  |
 | lat          | Latitude of the cell                    | /    | Float  |
