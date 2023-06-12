@@ -187,7 +187,7 @@ considerations.** -->
 
 - Time series data in cellularXreal dataset, containing missing values.
 
-<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/image-20230531162154445.png" alt="Time series data in cellularXreal dataset"  />
+<img src="https://raw.githubusercontent.com/KMdsy/figurebed/master/img/20230612142141.png" alt="Time series data in cellularXreal dataset"  />
 
 - Geospatial data in cellularXreal dataset
 
